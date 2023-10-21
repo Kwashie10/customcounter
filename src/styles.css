@@ -1,0 +1,353 @@
+/*Added  css to home*/
+
+.page {
+  background-color: #443c6a;
+  padding: 100px;
+  margin-top: 10rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.Count {
+  font-size: 34px;
+  color: #e0dfe4;
+  text-align: center;
+}
+.check {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+/* Links */
+a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+
+
+h2 {
+  color:blue ;
+  font-size: 25px;
+  text-align: center;
+}
+a
+h2:hover {
+  color: #0056b3;
+  transition: color 0.3s;
+}
+h3 {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  color: #ff0000;
+}
+
+.btn {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  margin-left: 32rem;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+.btns {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  margin-left: 3rem;
+  border-radius: 10px;
+  font-size: 20px; 
+  transition: background-color 0.3s ease;
+}
+.btns:hover {
+  background-color: #0056b3;
+}
+
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  .page {
+    padding: 10px;
+  }
+
+  .Count {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .btn {
+    margin-left: 3rem;
+    font-size: 17px;
+  }
+}
+
+/*Added css to the Counter*/
+
+
+.counter {
+  position: absolute;
+  background-color: #443c6a;
+  padding: 100px;
+  margin-top: 5rem;
+  margin-left: 15rem;
+  margin-right: 1rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  
+}
+
+.col{
+  
+  color: white;
+  text-align: center;
+  font-size: 9rem;
+  border-right: .15em solid orange;
+  border-left: .15em solid orange;
+}
+
+.colbtn {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 20px;
+  transition: background-color 0.5s ease;
+  
+  
+  
+}
+.colbtn:hover {
+  background-color: #0056b3;
+}
+
+
+input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  border-radius: 8px;
+
+  
+}
+
+.btnss {
+  margin: 20px 0;
+  margin-right: 30px;
+  color: #fff;
+  padding-left: 8rem;
+  
+}
+a
+.btnss:hover {
+  color: #0056b3;
+  transition: color 0.3s;
+}
+
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  .counter {
+    padding-bottom: 6rem;
+    margin: 2rem;
+    font-size: 20px;
+    
+  }
+
+  .col{
+    font-size: 25px;
+    margin: 5rem ;
+  }
+
+  .colbtn {
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  input {
+    padding: 8px;
+  }
+  .btnss{
+    font-size: 18px;
+  }
+}
+
+
+/* errorPage.css */
+
+.error-page {
+  background-color: #f0f0f0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 10rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: #ff0000;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 18px;
+  color: black;
+  margin: 10px 0;
+}
+
+.notfound {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+
+}
+a
+.notfound:hover {
+  background-color: #0056b3;
+  
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  .error-page {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+
+
+
+/* errorTest.css */
+
+.error {
+  background-color: #f0f0f0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 10rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+  text-align: center;
+}
+
+h4 {
+  font-size: 24px;
+  color: #ff0000;
+  margin: 20px 0;
+}
+
+.plink {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+button.blink {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+
+}
+a
+.blink:hover {
+  background-color: #0056b3;
+  
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  .error {
+    padding: 10px;
+  }
+
+  h4 {
+    font-size: 20px;
+    margin: 15px 0;
+  }
+
+  .plink {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  button.blink {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+/*footer css*/
+.footer {
+
+  text-align: center;
+  margin-top: 23px;
+  
+  
+  
+}
+
+.lens {
+  margin: 5px 0;
+  text-align: center;
+  font-size: 15px;
+  
+
+
+
+  
+}
+
+/* Mobile Responsiveness for Footer */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 14px;
+  }
+}
+
