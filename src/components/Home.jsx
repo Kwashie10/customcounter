@@ -33,7 +33,7 @@ export default function Root() {
       </div>
 
       <footer className="footer">
-        <p className="lens">AltSchool Second Semester Exams</p>
+        <p className="lens">AltSchool Africa Second Semester Exams</p>
         <p className="lens">© 2023 Kwashie Abednego</p>
 
 
