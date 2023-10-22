@@ -19,5 +19,10 @@ export function useCount() {
     setCount(value);
   };
 
-  return { count, increment, decrement, reset, setValue };
+  return { 
+    count, 
+    increment, 
+    decrement, 
+    reset, 
+    setValue };
 }
