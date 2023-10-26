@@ -6,9 +6,9 @@ import '../styles.css';
 export default function Root() {
   const [hasError, setHasError] = useState(false);
 
-  if (hasError) {
-    throw new Error("Oh... wow, there is an error somewhere in the react tree");
-  }
+  // if (hasError) {
+  //   // throw new Error("Oh... wow, there is an error somewhere in the react tree");
+  // }
 
   return (
     <div className="page">

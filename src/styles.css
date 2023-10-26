@@ -166,8 +166,11 @@ a
 /* Media Query for Small Screens */
 @media screen and (max-width: 768px) {
   .counter {
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
     margin: 2rem;
+    padding-left: 2rem ;
+    padding-right: 4rem;
     font-size: 20px;
     
   }
