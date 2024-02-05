@@ -4,19 +4,19 @@ import '../styles.css';
 
 
 function ErrorTest() {
-	const throwError = () => {
-		throw new Error("=====ERROR======");
-	};
+	// const throwError = () => {
+	// 	throw new Error("=====ERROR======");
+	// };
 
 	return (
 		
             <div className="error">
-			<h4 >Sorry, the page you're looking for doesn't exist.</h4>
+			<h4 className="title" >Sorry, the page you're looking for doesn't exist.</h4>
             <p  className="plink">Click on the link below to return home</p>
 
 			<Link to="/">
         {" "}
-        <button className="blink">Back to Hompage</button>{" "}
+        <button className="notfound">Back to Homepage</button>{" "}
       </Link>
             </div>
 

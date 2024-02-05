@@ -29,7 +29,7 @@ export default function Counter() {
       <button className="colbtn" onClick={reset}>
         reset
       </button>
-      <input value={newCount} type="number" onChange={handleOnChange} />
+      <input  value={newCount} type="number" onChange={handleOnChange}/>
       <button className="colbtn" onClick={handleOnClick}>
         Set count value
       </button>

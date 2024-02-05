@@ -5,9 +5,9 @@ import "../styles.css";
 export default function Root() {
   const [hasError, setHasError] = useState(false);
 
-  // if (hasError) {
-  //   // throw new Error("Oh... wow, there is an error somewhere in the react tree");
-  // }
+  if (hasError) {
+    // throw new Error("Oh... wow, there is an error somewhere in the react tree");
+  }
 
   return (
     <div className="page">
@@ -19,7 +19,7 @@ export default function Root() {
         </Link>
       </p>
       <div>
-        <h3>You can test the Error Boundary and 404Page here</h3>
+        <h3 className="h3">You can test the Error Boundary and 404Page here</h3>
         <Link to="/ErrorTest">
           <button className="btn" onClick={() => setHasError(true)}>
             ErrorBoundary test
